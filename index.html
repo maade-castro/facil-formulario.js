@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card-inner">
+    <h1>Lista de Contactos</h1>
+    <form action="#" class="container">
+        <input type="text" id="name" placeholder="Nombre" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="b-day" placeholder="Fecha de Nacimiento (YYYY-MM-DD)" required>
+        <input type="text" id="id" placeholder="ID" required>
+        <button id="send" onClick="agregarTarea()">Agregar Tarea</button>
+    </form>
+
+    <div id="message_error"></div>
+    
+    <ul id="lista-tareas">
+        <!-- Contactos se listarán aquí -->
+    </ul>
+</div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
